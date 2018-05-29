@@ -1,18 +1,14 @@
 {
-  "name": "pass-crack",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0",
-    "react-scripts": "1.1.4",
-    "semantic-ui-css": "^2.3.1",
-    "semantic-ui-react": "^0.80.2"
-  },
+  "name": "gatsby-starter-hello-world",
+  "description": "Gatsby hello world starter",
+  "license": "MIT",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^1.9.250",
+    "gatsby-link": "^1.6.40"
   }
 }
