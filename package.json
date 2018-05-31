@@ -3,9 +3,13 @@
   "description": "Gatsby hello world starter",
   "license": "MIT",
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve"
+  },
+  "devDependency": {
+    "gh-pages": "^1.1.0"
   },
   "dependencies": {
     "gatsby": "^1.9.250",
