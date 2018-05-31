@@ -12,7 +12,7 @@
     "gh-pages": "^1.1.0"
   },
   "dependencies": {
-    "gatsby": "^1.9.250",
+    "gatsby": "^1.9.266",
     "gatsby-link": "^1.6.40",
     "react": "^16.4.0",
     "semantic-ui-css": "^2.3.1",
