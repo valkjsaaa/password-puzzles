@@ -9999,5 +9999,5 @@ const wordlist = [
   "mediawiki",
   "configurations",
   "poison"
-]
+];
 export default wordlist
