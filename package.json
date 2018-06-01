@@ -12,7 +12,8 @@
     "gh-pages": "^1.1.0"
   },
   "dependencies": {
-    "gatsby": "^1.9.266",
+    "aphrodite": "^2.2.1",
+    "gatsby": "^1.9.267",
     "gatsby-link": "^1.6.40",
     "react": "^16.4.0",
     "semantic-ui-css": "^2.3.1",
