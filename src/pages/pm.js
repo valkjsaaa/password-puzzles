@@ -8,6 +8,7 @@ import img_oauth_actual from "./img/actual-oauth.jpg";
 import img_pm from "./img/pm.png";
 import img_no_oauth from "./img/no-oauth.png";
 import img_use_pm from "./img/use-pm.png";
+import checkPassword from "../diagnostic/index"
 
 
 class PasswordManagerStartPage extends React.Component {

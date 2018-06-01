@@ -1,3 +1,4 @@
+import zxcvbn from "zxcvbn"
 import wordlist from './dictionary.js'
 
 const dictionary = new Map(wordlist.map((val, i) => [val, i]));
@@ -149,4 +150,9 @@ const convertMS = (seconds) => {
         ${minute === 1 ? seconds + ' second' : seconds + ' seconds'}
     `
 };
-export default analysis
+
+const checkPassword = (password) => {
+    return zxcvbn(password).score >= 2;
+};
+
+export default {analysis, checkPassword}
