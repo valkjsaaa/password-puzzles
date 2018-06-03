@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "aphrodite": "^2.2.1",
-    "gatsby": "^1.9.267",
+    "gatsby": "^1.9.269",
     "gatsby-link": "^1.6.40",
     "react": "^16.4.0",
     "semantic-ui-css": "^2.3.1",
