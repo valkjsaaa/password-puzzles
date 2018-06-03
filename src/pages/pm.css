@@ -1,0 +1,27 @@
+.leak-block {
+    width: 300px;
+    height: 100px;
+}
+
+.leak-reveal {
+    height: 100%;
+    width: 100%;
+}
+
+.statistics-cover {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-image {
+    object-fit: contain;
+}
+
+.leak-stats {
+    margin: auto;
+}
+
+.fill-height {
+    height: 100%;
+}
