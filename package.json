@@ -8,16 +8,20 @@
     "build": "gatsby build",
     "serve": "gatsby serve"
   },
-  "devDependency": {
-    "gh-pages": "^1.1.0"
-  },
   "dependencies": {
     "aphrodite": "^2.2.1",
-    "gatsby": "^1.9.267",
+    "fs": "0.0.1-security",
+    "gatsby": "^1.9.269",
     "gatsby-link": "^1.6.40",
+    "md5": "^2.2.1",
     "react": "^16.4.0",
     "semantic-ui-css": "^2.3.1",
     "semantic-ui-react": "^0.80.2",
+    "unique-random-array": "^1.0.1",
     "zxcvbn": "^4.4.2"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1",
+    "gh-pages": "^1.1.0"
   }
 }
