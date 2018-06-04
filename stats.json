@@ -1,32 +1,136 @@
 {
   "assetsByChunkName": {
+    "path---recommendation-oauth": [
+      "path---recommendation-oauth-a0e39f21c11f6a62c5ab.js",
+      "path---recommendation-oauth-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-83296805a538de0c9ef8.js",
-      "component---src-pages-index-js-83296805a538de0c9ef8.js.map"
+      "component---src-pages-index-js-7aef18d54cfa4ebbf5ba.js",
+      "component---src-pages-index-js-7aef18d54cfa4ebbf5ba.js.map"
+    ],
+    "component---src-pages-diagnostic-start-js": [
+      "component---src-pages-diagnostic-start-js-272402f19d5bf11c2057.js",
+      "component---src-pages-diagnostic-start-js-272402f19d5bf11c2057.js.map"
+    ],
+    "component---src-pages-recommendation-start-js": [
+      "component---src-pages-recommendation-start-js-9ea60c4f2255c8b7710b.js",
+      "component---src-pages-recommendation-start-js-9ea60c4f2255c8b7710b.js.map"
+    ],
+    "component---src-pages-diagnostic-diagnostic-js": [
+      "component---src-pages-diagnostic-diagnostic-js-4bbfbba6a8351d01a1ec.js",
+      "component---src-pages-diagnostic-diagnostic-js-4bbfbba6a8351d01a1ec.js.map"
+    ],
+    "path---": [
+      "path----557518bd178906f8d58a.js",
+      "path----557518bd178906f8d58a.js.map"
+    ],
+    "path---diagnostic-start": [
+      "path---diagnostic-start-a0e39f21c11f6a62c5ab.js",
+      "path---diagnostic-start-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-recommendation-oauth-js": [
+      "component---src-pages-recommendation-oauth-js-a75794dca626ae132ede.js",
+      "component---src-pages-recommendation-oauth-js-a75794dca626ae132ede.js.map"
+    ],
+    "component---src-pages-walkthrough-start-js": [
+      "component---src-pages-walkthrough-start-js-d0a8eaf882bba4dbe880.js",
+      "component---src-pages-walkthrough-start-js-d0a8eaf882bba4dbe880.js.map"
+    ],
+    "path---recommendation-pm": [
+      "path---recommendation-pm-a0e39f21c11f6a62c5ab.js",
+      "path---recommendation-pm-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-walkthrough-fooglelogin-js": [
+      "component---src-pages-walkthrough-fooglelogin-js-bf6651d863dcab93b83a.js",
+      "component---src-pages-walkthrough-fooglelogin-js-bf6651d863dcab93b83a.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-c22ffdf23e14095f1368.js",
+      "component---src-layouts-index-js-c22ffdf23e14095f1368.js.map"
+    ],
+    "component---src-pages-walkthrough-sketchysignup-js": [
+      "component---src-pages-walkthrough-sketchysignup-js-a8f61ecef176c69cc4fa.js",
+      "component---src-pages-walkthrough-sketchysignup-js-a8f61ecef176c69cc4fa.js.map"
+    ],
+    "component---src-pages-recommendation-pm-js": [
+      "component---src-pages-recommendation-pm-js-694202a52e61e11c902a.js",
+      "component---src-pages-recommendation-pm-js-694202a52e61e11c902a.js.map"
+    ],
+    "component---src-pages-recommendation-nooauth-js": [
+      "component---src-pages-recommendation-nooauth-js-b824152a2c368ac841cc.js",
+      "component---src-pages-recommendation-nooauth-js-b824152a2c368ac841cc.js.map"
+    ],
+    "path---walkthrough-fooglesignup": [
+      "path---walkthrough-fooglesignup-a0e39f21c11f6a62c5ab.js",
+      "path---walkthrough-fooglesignup-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---recommendation-nooauth": [
+      "path---recommendation-nooauth-a0e39f21c11f6a62c5ab.js",
+      "path---recommendation-nooauth-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---walkthrough-fooglelogin": [
+      "path---walkthrough-fooglelogin-a0e39f21c11f6a62c5ab.js",
+      "path---walkthrough-fooglelogin-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---recommendation-start": [
+      "path---recommendation-start-a0e39f21c11f6a62c5ab.js",
+      "path---recommendation-start-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-walkthrough-sketchylogin-js": [
+      "component---src-pages-walkthrough-sketchylogin-js-a1649b6f3592afc8fb37.js",
+      "component---src-pages-walkthrough-sketchylogin-js-a1649b6f3592afc8fb37.js.map"
+    ],
+    "component---src-pages-walkthrough-fooglesignup-js": [
+      "component---src-pages-walkthrough-fooglesignup-js-50cc3b1666d3af0be8b3.js",
+      "component---src-pages-walkthrough-fooglesignup-js-50cc3b1666d3af0be8b3.js.map"
+    ],
     "commons": [
-      "commons-84ade03be7bd377e550f.js",
+      "commons-ac4e111497b58268df58.js",
       "build-js-styles.css",
-      "commons-84ade03be7bd377e550f.js.map",
+      "commons-ac4e111497b58268df58.js.map",
       "build-js-styles.css.map"
     ],
-    "component---src-pages-pm-js": [
-      "component---src-pages-pm-js-7f64d41fc972bc1dabf1.js",
-      "component---src-pages-pm-js-7f64d41fc972bc1dabf1.js.map"
+    "path---walkthrough-start": [
+      "path---walkthrough-start-a0e39f21c11f6a62c5ab.js",
+      "path---walkthrough-start-a0e39f21c11f6a62c5ab.js.map"
     ],
-    "path---pm": [
-      "path---pm-a0e39f21c11f6a62c5ab.js",
-      "path---pm-a0e39f21c11f6a62c5ab.js.map"
+    "path---diagnostic-diagnostic": [
+      "path---diagnostic-diagnostic-a0e39f21c11f6a62c5ab.js",
+      "path---diagnostic-diagnostic-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---recommendation-recap": [
+      "path---recommendation-recap-a0e39f21c11f6a62c5ab.js",
+      "path---recommendation-recap-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---walkthrough-sketchylogin": [
+      "path---walkthrough-sketchylogin-a0e39f21c11f6a62c5ab.js",
+      "path---walkthrough-sketchylogin-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-recommendation-recap-js": [
+      "component---src-pages-recommendation-recap-js-48376e35a1e96edbeec0.js",
+      "component---src-pages-recommendation-recap-js-48376e35a1e96edbeec0.js.map"
+    ],
+    "path---walkthrough-sketchysignup": [
+      "path---walkthrough-sketchysignup-a0e39f21c11f6a62c5ab.js",
+      "path---walkthrough-sketchysignup-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-8b669f66757c9ce0eced.js",
+      "app-6da277d841dd293d8de4.js",
       "build-js-styles.css",
-      "app-8b669f66757c9ce0eced.js.map",
+      "app-6da277d841dd293d8de4.js.map",
       "build-js-styles.css.map"
+    ],
+    "component---src-pages-recommendation-showallcompromised-js": [
+      "component---src-pages-recommendation-showallcompromised-js-e565cf488889bea85dee.js",
+      "component---src-pages-recommendation-showallcompromised-js-e565cf488889bea85dee.js.map"
+    ],
+    "path---recommendation-showallcompromised": [
+      "path---recommendation-showallcompromised-a0e39f21c11f6a62c5ab.js",
+      "path---recommendation-showallcompromised-a0e39f21c11f6a62c5ab.js.map"
     ]
   }
 }
