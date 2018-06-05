@@ -15,7 +15,7 @@ let score_meaning = [
   "very unguessable"
 ];
 
-class Foogle extends React.Component {
+class Generate extends React.Component {
   constructor(props) {
     super(props);
     const params = new URLSearchParams(window.location.search);
@@ -96,4 +96,4 @@ class Foogle extends React.Component {
   }
 }
 
-export default Foogle
+export default Generate

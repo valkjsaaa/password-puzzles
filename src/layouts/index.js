@@ -6,7 +6,7 @@ import path from 'path'
 export default ({ children }) => {
   const sectionsArr = Array.from(sections.entries())
   const currSectionIndex = sectionsArr.findIndex(([, { pages }]) => pages.includes(path.normalize(window.location.pathname + '/')))
-  console.log(sectionsArr, window.location.pathname)
+  // console.log(sectionsArr, window.location.pathname)
   return (
     <div style={{ height: '100vh' }}>
       <Step.Group widths={sectionsArr.length} ordered>{
