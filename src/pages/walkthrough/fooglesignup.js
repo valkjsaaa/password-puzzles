@@ -26,7 +26,7 @@ export default class extends React.Component {
       <Centered>
         <Container>
           <Container text>
-            Create an account for the well known internet company Foogle
+            In Scenario A, you sign up for a well-known company that has a history of being secure with their data. Please enter your password:
           </Container>
           {
             repeat && !stale

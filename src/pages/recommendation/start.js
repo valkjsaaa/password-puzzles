@@ -7,7 +7,15 @@ export default (props) => (
   <Centered>
     <Container>
       <Container>
-        Password leaks are more common than you might think. All of the following companies have had their entire password records exposed
+        Although most websites seem trustworthy,
+        even the most reputable companies have had hacks in the past
+        compromising all of the personal data and passwords of the users.
+        Therefore, it is a good idea to change your password for some websites
+        so that if one is leaked then not all of your accounts are compromised.
+      </Container>
+      <Container>
+        All of the following companies have had their entire password records exposed, guess who they are
+        (hover your mouse on top of each on of them to reveal the answer):
       </Container>
       <Button onClick={e => navigateTo('/recommendation/showallcompromised/')}>Show All</Button>
       <Item.Group>{

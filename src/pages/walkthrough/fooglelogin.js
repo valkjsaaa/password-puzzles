@@ -24,7 +24,7 @@ class Foogle extends React.Component {
       <Centered>
         <Container>
           <Container text>
-          Great work creating a secure password! Now login to Foogle
+          Great work creating a secure password! Now try to remember the password that you have just created to login:
           </Container>
           {
             !this.passMatches() && !stale

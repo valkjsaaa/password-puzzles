@@ -30,7 +30,7 @@ export default class extends React.Component {
       <Centered>
         <Container>
           <Container text>
-         Now create an account for the disreputable cryptocurrency service sketch.network
+            In Scenario B, please create a password for an unknown website that could be compromised.
           </Container>
           {
             repeat && !stale
@@ -55,8 +55,10 @@ export default class extends React.Component {
                   ? (
                     <Message negative>
                       <Message.Header>It's a bad idea to use the same password as before</Message.Header>
+                      Since you entered the same password as you had for the trusted website,
+                      your password could be leaked from this website and grant hackers access to your other secure accounts.
                       <Link to='/recommendation/start/'>
-                      Learn why
+                      Learn why and how to easily create and remember different password for different websites.
                       </Link>
                     </Message>
                   )

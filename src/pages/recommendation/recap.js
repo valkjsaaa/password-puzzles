@@ -4,7 +4,9 @@ import Link from 'gatsby-link'
 import Centered from '../../components/centered.js'
 export default (props) => (
   <Centered>
-    <Header>In these cases, we suggest a password manager</Header>
+    <Header>
+      Summary
+    </Header>
     <List bulleted>
       <List.Item>
           Good practice of creating a password(add a link)
