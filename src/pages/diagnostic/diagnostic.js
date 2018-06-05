@@ -5,6 +5,15 @@ import ps from 'zxcvbn'
 import { Grid, Header, Segment, Item, Button, List } from 'semantic-ui-react'
 import Login from '../../components/login.js'
 import Split from '../../components/split.js'
+
+let score_meaning = [
+  "too guessable",
+  "very guessable",
+  "somewhat guessable",
+  "safely unguessable",
+  "very unguessable"
+];
+
 class Diagnostic extends React.Component {
   constructor (props) {
     super(props)
@@ -36,9 +45,13 @@ class Diagnostic extends React.Component {
               {
                 this.state.pass.length
                   ? <Grid.Column floated='left' textAlign='left' width='12'>
-                    <List bulleted>{
-                      info.feedback.suggestions.map(s =>
-                        <Item>{s}</Item>
+                    <List bulleted>
+                      <Item>
+                        Score: {info.score} / 4 {score_meaning[info.score]}
+                      </Item>
+                      {
+                      info.feedback.suggestions.map((s, i) =>
+                        <Item key={i}>Tips: {s}</Item>
                       )
                     }
                     </List>
@@ -52,22 +65,22 @@ class Diagnostic extends React.Component {
           <Header>To crack your password, it would take</Header>
           <Item.Group items={[
             {
-              header: `${info.crack_times_display.offline_fast_hashing_1e10_per_second}`,
-              description: 'On a website that was compromised'
-              // meta: "at 10000000000 guesses a second"
+              header: 'On a secure website that limits the number of password attempts:',
+              description: `${info.crack_times_display.online_throttling_100_per_hour}`
+              // meta: 'at 100 guesses an hour'
             },
             {
-              header: `${info.crack_times_display.online_no_throttling_10_per_second}`,
-              description: 'On a secure website'
+              header: 'On a secure website:',
+              description: `${info.crack_times_display.online_no_throttling_10_per_second}`
               // meta: 'at 10 guesses a second'
             },
+
             {
-              header: `${info.crack_times_display.online_throttling_100_per_hour}`,
-              description: 'On a secure website that limits the number of password attempts'
-              // meta: 'at 100 guesses an hour'
-            }
-          ]
-          } />
+              header: 'On a website that was compromised:',
+              description: `${info.crack_times_display.offline_fast_hashing_1e10_per_second}`
+              // meta: "at 10000000000 guesses a second"
+            },
+          ]} />
         </Segment>
       </Split>
     )

@@ -14,7 +14,7 @@ export default class extends React.Component {
     return (
       <Centered width={5}>
         <Container>
-          <Header color='teal'>Enter a password to begin</Header>
+          <Header color='teal'>Enter a password that you can remember to begin</Header>
           <Login onSubmit={e => { navigateTo(`/diagnostic/diagnostic?pass=${this.state.pass}`) }}>
             <Login.Password onChange={e => { this.setState({ pass: e.target.value }) }} />
             <Grid columns={2}>
@@ -26,7 +26,7 @@ export default class extends React.Component {
               {
                 this.state.pass.length
                   ? <Grid.Column floated='left' textAlign='right' width='12'>
-                    * Clicking "Begin" will show your password
+                    * We will start analyse your password when you click "Start"
                   </Grid.Column>
                   : null
               }
