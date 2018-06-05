@@ -4,14 +4,14 @@ import { Login } from '../../components/login.js'
 import Centered from '../../components/centered.js'
 import md5 from 'md5'
 import Link, { navigateTo } from 'gatsby-link'
+import geturlparameter from "../../utils/geturlparamater";
 class Foogle extends React.Component {
   constructor (props) {
-    super(props)
-    const params = new URLSearchParams(window.location.search)
+    super(props);
     this.state = {
-      user: params.get('user') || '',
-      hash: params.get('hash') || '',
-      pass: params.get('pass') || '',
+      user: geturlparameter('user', this.props.location.search) || '',
+      hash: geturlparameter('hash', this.props.location.search) || '',
+      pass: geturlparameter('pass', this.props.location.search) || '',
       stale: true
     }
   }

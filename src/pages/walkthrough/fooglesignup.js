@@ -6,15 +6,15 @@ import Centered from '../../components/centered.js'
 import randomWord from '../../utils/random-word'
 import md5 from 'md5'
 import { navigateTo } from 'gatsby-link'
+import geturlparameter from "../../utils/geturlparamater";
 export default class extends React.Component {
   constructor (props) {
     super(props)
-    const params = new URLSearchParams(props.location.search)
     this.state = {
-      user: params.get('user') || '',
-      pass: params.get('pass') || '',
+      user: geturlparameter('user', this.props.location.search) || '',
+      pass: geturlparameter('pass', this.props.location.search) || '',
       stale: true,
-      repeat: !!params.get('repeat')
+      repeat: !!geturlparameter('repeat', this.props.location.search)
     }
   }
   passIsSecure () {

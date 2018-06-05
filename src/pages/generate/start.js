@@ -18,8 +18,7 @@ let score_meaning = [
 class Generate extends React.Component {
   constructor(props) {
     super(props);
-    const params = new URLSearchParams(window.location.search);
-    const pattern = params.get('pattern') || "wsd";
+    const pattern = "wsd";
     const password = xkpasswd({pattern: pattern, separators: "-"});
     const info = zxcvbn(password)
     this.state = {

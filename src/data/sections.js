@@ -11,6 +11,7 @@ export default new Map([
   }],
   [ `Generate a good password`, {
     pages: [
+      wp`generate/start/`
     ],
     entry: wp`generate/start/`,
     description: `Guideline to create a easy-to-remember and secure password`

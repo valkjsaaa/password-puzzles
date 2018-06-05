@@ -3,10 +3,11 @@ import { Step } from 'semantic-ui-react'
 import sections from '../data/sections.js'
 import { navigateTo } from 'gatsby-link'
 import path from 'path'
-export default ({ children }) => {
+export default ({ children, location }) => {
   const sectionsArr = Array.from(sections.entries())
-  const currSectionIndex = sectionsArr.findIndex(([, { pages }]) => pages.includes(path.normalize(window.location.pathname + '/')))
-  // console.log(sectionsArr, window.location.pathname)
+  console.log(location);
+  console.log(sectionsArr, location.pathname);
+  const currSectionIndex = sectionsArr.findIndex(([, { pages }]) => pages.includes(path.normalize(location.pathname + '/')))
   return (
     <div style={{ height: '100vh' }}>
       <Step.Group widths={sectionsArr.length} ordered>{

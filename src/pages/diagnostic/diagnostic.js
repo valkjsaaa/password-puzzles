@@ -5,6 +5,7 @@ import ps from 'zxcvbn'
 import { Grid, Header, Segment, Item, Button, List } from 'semantic-ui-react'
 import Login from '../../components/login.js'
 import Split from '../../components/split.js'
+import geturlparameter from '../../utils/geturlparamater'
 
 let score_meaning = [
   "too guessable",
@@ -18,7 +19,7 @@ class Diagnostic extends React.Component {
   constructor (props) {
     super(props)
     this.state = {}
-    this.state.pass = new URLSearchParams(this.props.location.search).get('pass') || ''
+    this.state.pass = geturlparameter('pass', this.props.location.search) || ''
   }
   componentDidMount () {
     this.passwordInput.focus()
