@@ -46,6 +46,11 @@ class Diagnostic extends React.Component {
                 this.state.pass.length
                   ? <Grid.Column floated='left' textAlign='left' width='12'>
                     <List bulleted>
+                      {
+                        info.score >= 3 ?
+                          (<Item> This password is pretty good! It's very hard to get hacked on a secure website.</Item>):
+                          (<Item> This password is not secure enough. Try get a score of 3 out of 4.</Item>)
+                      }
                       <Item>
                         Score: {info.score} / 4 {score_meaning[info.score]}
                       </Item>

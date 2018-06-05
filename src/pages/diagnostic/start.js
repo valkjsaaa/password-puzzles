@@ -14,7 +14,13 @@ export default class extends React.Component {
     return (
       <Centered width={5}>
         <Container>
-          <Header color='teal'>Enter a password that you can remember to begin</Header>
+          <Header color='teal'>
+            Hi, welcome to our interactive explorable on privacy and security.
+            Today, we will teach you about the importance of having a strong password to secure your identity online.
+          </Header>
+          <Header color='teal'>
+            Enter a password that you can remember to begin
+          </Header>
           <Login onSubmit={e => { navigateTo(`/diagnostic/diagnostic?pass=${this.state.pass}`) }}>
             <Login.Password onChange={e => { this.setState({ pass: e.target.value }) }} />
             <Grid columns={2}>
