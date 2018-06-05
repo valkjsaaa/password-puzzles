@@ -38,7 +38,7 @@ class Diagnostic extends React.Component {
               type='text' />
             <Grid columns={2}>
               <Grid.Column width={4}>
-                <Button onClick={e => navigateTo(`/walkthrough/start/`)}>
+                <Button onClick={e => navigateTo(`/generate/start/`)}>
                   Next
                 </Button>
               </Grid.Column>
@@ -48,8 +48,8 @@ class Diagnostic extends React.Component {
                     <List bulleted>
                       {
                         info.score >= 3 ?
-                          (<Item> This password is pretty good! It's very hard to get hacked on a secure website.</Item>):
-                          (<Item> This password is not secure enough. Try get a score of 3 out of 4.</Item>)
+                          (<Item> This password is pretty good! It's very hard to get hacked.</Item>):
+                          (<Item> This password is not secure enough. Try to get a score of 3 out of 4.</Item>)
                       }
                       <Item>
                         Score: {info.score} / 4 {score_meaning[info.score]}

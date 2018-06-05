@@ -9,7 +9,13 @@ export default new Map([
     entry: wp`diagnostic/start/`,
     description: `Experiment with different passwords`
   }],
-  [ `Learn More`, {
+  [ `Generate a good password`, {
+    pages: [
+    ],
+    entry: wp`generate/start/`,
+    description: `Guideline to create a easy-to-remember and secure password`
+  }],
+  [ `Password on multiple websites`, {
     pages: [
       wp`walkthrough/start/`,
       wp`walkthrough/fooglesignup/`,
@@ -18,9 +24,9 @@ export default new Map([
       wp`walkthrough/sketchylogin/`
     ],
     entry: wp`walkthrough/start/`,
-    description: `Put your knowledge to the test`
+    description: `Put your password knowledge to the test`
   }],
-  [ `Solutions`, {
+  [ `Password Manager`, {
     pages: [
       wp`recommendation/start/`,
       wp`recommendation/showallcompromised/`,
@@ -30,6 +36,6 @@ export default new Map([
       wp`recommendation/recap/`
     ],
     entry: wp`recommendation/start/`,
-    description: `Follow these suggestions for stronger passwords`
+    description: `The ultimate solution to the password problem`
   }]
 ])

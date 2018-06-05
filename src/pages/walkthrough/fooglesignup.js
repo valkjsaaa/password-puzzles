@@ -42,9 +42,7 @@ export default class extends React.Component {
                 ? (
                   <Message negative>
                     <Message.Header>Oops, That's not a secure password!</Message.Header>
-                    <a href='' onClick={e => this.setState({ pass: `${randomWord()}${randomWord()}${randomWord()}` }) || e.preventDefault()}>
-                    Generate one
-                    </a>
+                    <Link to={`/generate/start/`}>Try our password generator again?</Link>
                   </Message>
                 )
                 : ''

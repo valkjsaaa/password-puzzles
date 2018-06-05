@@ -46,9 +46,9 @@ export default class extends React.Component {
                 ? (
                   <Message negative>
                     <Message.Header>Oops, That's not a secure password!</Message.Header>
-                    <a onClick={e => this.setState({ pass: `${randomWord()}${randomWord()}${randomWord()}` })}>
-                    Generate one
-                    </a>
+                    Remember different passwords for each website can be hard.
+                    Let's learn a easier way to use different password on different websites!
+                    <Link to={`/recommendation/start/`}>Next</Link>
                   </Message>
                 )
                 : this.passIsRepeat() && !stale

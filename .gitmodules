@@ -1,0 +1,3 @@
+[submodule "src/utils/xkpasswd-node"]
+	path = src/utils/xkpasswd-node
+	url = https://github.com/valkjsaaa/xkpasswd-node.git
